@@ -99,17 +99,18 @@
   margin-right: 8px;
   border-radius: 2px;
   border: 1px solid#212121;
+}
 
-  .modal-form-term:checked + &::before {
-    background-color: var(--accent-color);
-    border: 1px solid#2196f3;
-    border-radius: 2px;
-    background-image: url("../img/vector.svg");
-    background-position: center;
-  }
-  .modal-form-term:focus + &::before {
-    box-shadow: 0 0 0 2px #2196f3;
-  }
+.modal-form-term:checked + .modal-form-check-desc::before {
+  background-color: var(--accent-color);
+  border: 1px solid#2196f3;
+  border-radius: 2px;
+  background-image: url("../img/vector.svg");
+  background-position: center;
+}
+
+.modal-form-term:focus + .modal-form-check-desc::before {
+  box-shadow: 0 0 0 2px #2196f3;
 }
 
 .modal-form-btn {

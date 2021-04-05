@@ -303,7 +303,7 @@ img {
   border: 1px solid #212121;
 }
 
-.modal-form-term:checked + .modal-form-check-desc::before::before {
+.modal-form-term:checked + .modal-form-check-desc::before {
   background-color: var(--accent-color);
   border: 1px solid #2196f3;
   border-radius: 2px;
@@ -311,7 +311,7 @@ img {
   background-position: center;
 }
 
-.modal-form-term:focus + .modal-form-check-desc::before::before {
+.modal-form-term:focus + .modal-form-check-desc::before {
   -webkit-box-shadow: 0 0 0 2px #2196f3;
           box-shadow: 0 0 0 2px #2196f3;
 }
