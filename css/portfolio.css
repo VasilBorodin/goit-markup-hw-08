@@ -56,42 +56,28 @@ img {
 }
 
 .container {
-  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.navigation-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 
-.logo {
-  margin-right: 93px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 0.03em;
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
 }
 
-.logo__accent-text {
-  color: var(--accent-color);
-}
-
-.logo__theme_dark {
-  color: var(--secondary-color);
-}
-
-.logo__theme_light {
-  color: black;
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .footer {
@@ -360,141 +346,28 @@ img {
   cursor: pointer;
 }
 
-.header {
-  left: 0px;
-  top: 80px;
-  border: 1px solid #ececec;
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .container-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1, 19;
+@media screen and (min-width: 480px) {
+  .container-header {
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 
-.navigation-list {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-left: auto;
+@media screen and (min-width: 768px) {
+  .container-header {
+    width: 768px;
+  }
 }
 
-.navigation-list__menu {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navigation-list__menu:not(:last-child) {
-  margin-right: 50px;
-}
-
-.navigation-list__navigation-link {
-  font-family: "Roboto", sans-serif;
-  padding: 32px 0px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
-  color: var(--first-color);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-list__navigation-link:hover, .navigation-list__navigation-link:focus {
-  color: var(--accent-color);
-}
-
-.navigation-list__navigation-link.current {
-  color: var(--accent-color);
-}
-
-.navigation-list__navigation-link.current::after {
-  content: "";
-  position: absolute;
-  display: block;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #2196f3;
-}
-
-.navigation-list__navigation-nav {
-  margin-right: 50px;
-}
-
-.navigation-list__advantages-nav {
-  margin-right: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  fill: currentColor;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-list__mail-link {
-  display: block;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
-  color: var(--first-color);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-list__mail-link:hover, .navigation-list__mail-link:focus {
-  color: var(--accent-color);
-}
-
-.navigation-list__tel-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
-  color: var(--first-color);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-list__tel-link:hover, .navigation-list__tel-link:focus {
-  color: var(--accent-color);
+@media screen and (min-width: 1200px) {
+  .container-header {
+    width: 1200px;
+  }
 }
 
 .hero-btn {
