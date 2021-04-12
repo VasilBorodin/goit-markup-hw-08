@@ -18,6 +18,9 @@
   .container-header {
     width: 768px;
   }
+  .navigation-list-address {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -31,6 +34,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .navigation-list-address {
+    display: none;
+  }
+
   .menu-btn {
     background-color: transparent;
     border: none;
@@ -80,9 +87,6 @@
   .mobile-close-btn-icon {
     width: 40px;
     height: 40px;
-  }
-
-  .mobile-menu__list {
   }
 
   .mobile-menu__item {
@@ -201,10 +205,28 @@
       background-color: #2196f3;
     }
   }
-}
 
-.navigation-list-address {
-  display: block;
+  .navigation-list-address {
+    padding-top: 21px;
+  }
+
+  .navigation-list-address__navigation-nav {
+    margin-bottom: 10px;
+  }
+
+  .navigation-list__mail-link,
+  .navigation-list__tel-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1, 16;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+
+  .navigation-list-address__advantages-nav {
+    margin-right: 8px;
+  }
 }
 
 // .container-header {
