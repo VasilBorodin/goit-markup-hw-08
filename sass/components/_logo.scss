@@ -21,3 +21,14 @@
 .logo__theme_light {
   color: black;
 }
+
+@media screen and (min-width: 670px) {
+  .logo {
+    margin-right: 88px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+  }
+}
