@@ -628,6 +628,28 @@ img {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .container-hero {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-hero {
+    width: 768px;
+  }
+  .navigation-list-address {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-hero {
+    width: 1200px;
+  }
+}
+
 .section__feature {
   display: -webkit-box;
   display: -ms-flexbox;
