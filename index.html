@@ -411,7 +411,7 @@
 
     <!--Подвал-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer__container">
             <address class="address">
                 <div class="container-address">
                     <ul class="address-list list">
@@ -460,23 +460,26 @@
                         </li>
                     </ul>  
                 </div>
-
-            <label class="social-field">
-                <b class="social-field__social-field-title">Подпишитесь на рассылку</b>
-                <form action="social-form">
-                    <span class="social-field__social-form-input-wrapper">
-                        <input type="email" name="user-email" class="social-field__social-form-inpyt" placeholder="E-mail" required>
-                        <button class="social-field__social-form-btn">Подписаться
-                            <svg class="" widch="24" height="24">
-                                <use href="./img/sprite/sprite.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                    </span>
-                </form>
-            </label>
-
             </address>
+
+            <div class="field">
+                <label class="social-field">
+                    <b class="social-field__social-field-title">Подпишитесь на рассылку</b>
+                    <form action="social-form">
+                        <span class="social-field__social-form-input-wrapper">
+                            <input type="email" name="user-email" class="social-field__social-form-inpyt" placeholder="E-mail"
+                                required>
+                            <button class="social-field__social-form-btn">Подписаться
+                                <svg class="" widch="24" height="24">
+                                    <use href="./img/sprite/sprite.svg#icon-send"></use>
+                                </svg>
+                            </button>
+                        </span>
+                    </form>
+                </label>
+            </div>
         </div>
+
         
     </footer>
 
