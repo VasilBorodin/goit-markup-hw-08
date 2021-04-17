@@ -257,7 +257,73 @@ img {
           flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 360px) {
+  .modal {
+    width: 450px;
+  }
+  .modal-form-title {
+    width: 370px;
+    height: 48px;
+  }
+  .modal-form-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1, 5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .modal-form-field {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1, 16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+  .modal-form-check-desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1, 16;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .modal {
+    width: 450px;
+  }
+  .modal-form-title {
+    width: 370px;
+    height: 48px;
+  }
+  .modal-form-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1, 5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .modal-form-field {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1, 16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+  .modal-form-check-desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1, 16;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+
+@media screen and (max-width: 1600px) {
   .modal-form-title {
     font-size: 20px;
     font-weight: 700;
@@ -441,39 +507,6 @@ img {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .modal {
-    width: 450px;
-  }
-  .modal-form-title {
-    width: 370px;
-    height: 48px;
-  }
-  .modal-form-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 1, 5;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
-  .modal-form-field {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    line-height: 1, 16;
-    letter-spacing: 0.01em;
-    color: #757575;
-  }
-  .modal-form-check-desc {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    line-height: 1, 16;
-    letter-spacing: 0.03em;
-    color: #757575;
   }
 }
 
@@ -1006,22 +1039,40 @@ img {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container-hero {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1, 61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }
+}
+
 .hero {
-  padding: 200px 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #2f303a;
-  background-color: rgba(47, 48, 58, 0.4);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/desktop/Header.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/desktop/Header.jpg");
+  padding: 118px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/img_mobile/Header.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/img_mobile/Header.jpg");
 }
 
 @media screen and (min-width: 480px) {
   .hero {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    max-width: 480px;
+    margin: 0 auto;
+    height: 400px;
     background: #2f303a;
     background-color: rgba(47, 48, 58, 0.4);
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/img_mobile/Header.jpg");
@@ -1044,6 +1095,10 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
+    display: block;
+    max-width: 768px;
+    margin: 0 auto;
+    height: 400px;
     background: #2f303a;
     background-color: rgba(47, 48, 58, 0.4);
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/img_tablet/Header.jpg");
@@ -1055,6 +1110,19 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .hero {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 600px;
+    background: #2f303a;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/img_tablet/Header.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/img_tablet/Header.jpg");
+  }
+  .hero-title {
+    width: 360px;
+  }
   .hero-title {
     display: block;
     width: 696px;

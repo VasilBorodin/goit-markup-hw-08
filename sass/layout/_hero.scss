@@ -25,48 +25,44 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container-hero {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1, 61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }
+}
+
 .hero {
-  padding: 200px 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #2f303a;
-  background-color: rgba(47, 48, 58, 0.4);
+  padding: 118px 0;
   background-image: linear-gradient(
+      to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../img/desktop/Header.jpg");
-
-  // padding: 118px 0;
-  // height: 400px;
-  // background-image: -webkit-gradient(
-  //     linear,
-  //     left top,
-  //     right top,
-  //     from(rgba(47, 48, 58, 0.4)),
-  //     to(rgba(47, 48, 58, 0.4))
-  //   ),
-  //   url("../img/hero/bg.jpg");
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // margin-left: auto;
-  // margin-right: auto;
-  // background-color: rgba(47, 48, 58, 0.4);
-  // background-image: linear-gradient(
-  //     to right,
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url("../img/hero/bg.jpg");
+    url("../img/img_mobile/Header.jpg");
 }
 
 @media screen and (min-width: 480px) {
   .hero {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    max-width: 480px;
+    margin: 0 auto;
+    height: 400px;
     background: #2f303a;
     background-color: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(
@@ -92,6 +88,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
+    display: block;
+    max-width: 768px;
+    margin: 0 auto;
+    height: 400px;
     background: #2f303a;
     background-color: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(
@@ -106,6 +106,22 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .hero {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 600px;
+    background: #2f303a;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/img_tablet/Header.jpg");
+  }
+  .hero-title {
+    width: 360px;
+  }
   .hero-title {
     display: block;
     width: 696px;
