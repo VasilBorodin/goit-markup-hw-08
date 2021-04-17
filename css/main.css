@@ -40,6 +40,7 @@ img {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .list {
@@ -622,6 +623,7 @@ img {
   }
   .mobile-menu {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 50%;
     max-width: 480px;
@@ -673,6 +675,10 @@ img {
     line-height: 1, 17;
     letter-spacing: 0.02em;
     color: #212121;
+  }
+  .mobile-menu__item:focus, .mobile-menu__item:hover {
+    fill: currentColor;
+    color: var(--accent-color);
   }
   .mobile-navigation-list {
     padding-top: 300px;
@@ -808,10 +814,26 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .navigation-list-address {
+  .container-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1, 19;
   }
   .navigation-list {
     -webkit-box-align: center;
@@ -862,6 +884,21 @@ img {
     border-radius: 2px;
     background-color: #2196f3;
   }
+  .navigation-list__navigation-nav {
+    margin-right: 50px;
+  }
+  .navigation-list-address__navigation-nav {
+    margin-right: 30px;
+  }
+  .navigation-list__advantages-nav {
+    margin-right: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    fill: currentColor;
+    -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   .navigation-list__mail-link {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -910,6 +947,15 @@ img {
 @media screen and (min-width: 1200px) {
   .container-hero {
     width: 1200px;
+  }
+  .navigation-list-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-top: 32px;
   }
 }
 
