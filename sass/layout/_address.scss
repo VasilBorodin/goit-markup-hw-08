@@ -338,7 +338,6 @@
   .navigation-address {
     display: flex;
     display: block;
-    padding-top: 20px;
   }
   .subtitle-text {
     margin-top: 10px;
@@ -428,6 +427,7 @@
   .navigation-address {
     display: flex;
     width: 230px;
+    padding-top: 20px;
     flex-direction: column;
   }
 

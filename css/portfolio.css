@@ -139,11 +139,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
   }
-  .logo__theme_dark {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .navigation-logo {
     margin-right: 88px;
   }
@@ -1264,7 +1259,6 @@ img {
     display: -ms-flexbox;
     display: flex;
     display: block;
-    padding-top: 20px;
   }
   .subtitle-text {
     margin-top: 10px;
@@ -1360,6 +1354,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     width: 230px;
+    padding-top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
