@@ -39,7 +39,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../img/hero/bg.jpg");
+    url("../img/desktop/Header.jpg");
 
   // padding: 118px 0;
   // height: 400px;
@@ -66,6 +66,15 @@
 }
 
 @media screen and (min-width: 480px) {
+  .hero {
+    background: #2f303a;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/img_mobile/Header.jpg");
+  }
   .hero-title {
     padding-bottom: 30px;
     margin-left: auto;
@@ -79,38 +88,47 @@
     text-transform: uppercase;
     color: var(--secondary-color);
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .hero-title {
-      width: 360px;
-    }
+@media screen and (min-width: 768px) {
+  .hero {
+    background: #2f303a;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/img_tablet/Header.jpg");
   }
-
-  @media screen and (min-width: 1200px) {
-    .hero-title {
-      display: block;
-      width: 696px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 30px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 900;
-      font-size: 44px;
-      line-height: 1, 36;
-      text-align: center;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--secondary-color);
-    }
+  .hero-title {
+    width: 360px;
   }
+}
 
-  .container-hero {
+@media screen and (min-width: 1200px) {
+  .hero-title {
     display: block;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
   }
+}
+
+.container-hero {
+  display: block;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .hero-modal-btn {

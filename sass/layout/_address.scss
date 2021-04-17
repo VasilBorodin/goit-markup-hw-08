@@ -336,8 +336,7 @@
   }
 
   .navigation-address {
-    display: flex;
-    // display: block;
+    flex-direction: column;
   }
   .subtitle-text {
     margin-top: 10px;
