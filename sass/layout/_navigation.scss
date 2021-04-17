@@ -13,9 +13,15 @@
   .navigation-list {
     display: none;
   }
+  .navigation-list-address {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .navigation-list-address {
+    display: block;
+  }
   .container-header {
     width: 768px;
   }
@@ -147,10 +153,6 @@
 }
 
 @media screen and (min-width: 480px) {
-  .navigation-list-address {
-    display: none;
-  }
-
   .menu-btn {
     background-color: transparent;
     border: none;
@@ -349,6 +351,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .navigation-list-address {
+    display: flex;
+    align-items: baseline;
+    padding-top: 32px;
+  }
   .container-header {
     display: flex;
     width: 1200px;
