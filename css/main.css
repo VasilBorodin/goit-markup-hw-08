@@ -93,7 +93,6 @@ img {
 }
 
 .logo {
-  margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-size: 26px;
@@ -584,6 +583,16 @@ img {
     height: 40px;
   }
   .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: fixed;
     top: 0;
     left: 50%;
@@ -1026,7 +1035,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .container-hero {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -1057,7 +1066,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .container-hero {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
   }
   .hero-title {
@@ -1084,6 +1093,7 @@ img {
 @media screen and (min-width: 480px) {
   .hero {
     display: block;
+    width: auto;
     background-size: cover;
     background-position: center;
     max-width: 480px;

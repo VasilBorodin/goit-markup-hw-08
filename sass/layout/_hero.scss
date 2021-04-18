@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
   .container-hero {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 480px) {
   .container-hero {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
   }
   .hero-title {
@@ -58,6 +58,7 @@
 @media screen and (min-width: 480px) {
   .hero {
     display: block;
+    width: auto;
     background-size: cover;
     background-position: center;
     max-width: 480px;
