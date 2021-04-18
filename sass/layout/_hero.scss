@@ -3,6 +3,9 @@
     width: auto;
     margin: 0 auto;
   }
+  .navigation-list-address {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -30,6 +33,7 @@
     width: auto;
     margin: 0 auto;
   }
+
   .hero-title {
     padding-bottom: 30px;
     margin-left: auto;
@@ -42,6 +46,10 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-color);
+  }
+
+  .navigation-list-address {
+    display: none;
   }
 }
 

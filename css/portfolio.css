@@ -648,9 +648,6 @@ img {
     letter-spacing: 0.02em;
     color: #212121;
   }
-  .mobile-navigation-list {
-    padding-top: 300px;
-  }
   .mobile-navigation-list__navigation-tel {
     margin-bottom: 32px;
     font-family: "Roboto", sans-serif;
@@ -773,9 +770,6 @@ img {
   .mobile-menu__item:focus, .mobile-menu__item:hover {
     fill: currentColor;
     color: var(--accent-color);
-  }
-  .mobile-navigation-list {
-    padding-top: 300px;
   }
   .mobile-navigation-list__navigation-tel {
     margin-bottom: 32px;

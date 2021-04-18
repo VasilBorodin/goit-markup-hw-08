@@ -648,9 +648,6 @@ img {
     letter-spacing: 0.02em;
     color: #212121;
   }
-  .mobile-navigation-list {
-    padding-top: 300px;
-  }
   .mobile-navigation-list__navigation-tel {
     margin-bottom: 32px;
     font-family: "Roboto", sans-serif;
@@ -773,9 +770,6 @@ img {
   .mobile-menu__item:focus, .mobile-menu__item:hover {
     fill: currentColor;
     color: var(--accent-color);
-  }
-  .mobile-navigation-list {
-    padding-top: 300px;
   }
   .mobile-navigation-list__navigation-tel {
     margin-bottom: 32px;
@@ -1038,6 +1032,9 @@ img {
     width: auto;
     margin: 0 auto;
   }
+  .navigation-list-address {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1081,6 +1078,9 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-color);
+  }
+  .navigation-list-address {
+    display: none;
   }
 }
 
